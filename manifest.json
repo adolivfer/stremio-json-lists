@@ -2,7 +2,8 @@
   "id": "com.adolivfer.jsonlists",
   "version": "1.0.0",
   "name": "Adoliv Stremio JSON Lists",
-  "description": "Catálogos personalizados usando JSON alojados en GitHub",
+  "description": "Catálogos personalizados de películas curados manualmente",
+  "logo": "https://via.placeholder.com/256x256/4A90E2/FFFFFF?text=JSON+Lists",
   "types": ["movie"],
   "catalogs": [
     {
@@ -30,14 +31,8 @@
       "extra": [{ "name": "skip" }]
     }
   ],
-  "resources": [
-    {
-      "name": "catalog",
-      "type": "movie",
-      "idPrefixes": ["top100", "recientes", "certified_fresh", "cult"]
-    }
-  ],
-  "behaviourHints": {
+  "resources": ["catalog"],
+  "behaviorHints": {
     "configurable": false,
     "configurationRequired": false
   }

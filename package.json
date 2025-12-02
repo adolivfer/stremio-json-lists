@@ -1,0 +1,27 @@
+{
+  "name": "stremio-json-lists",
+  "version": "1.0.0",
+  "description": "Addon de Stremio para catálogos personalizados usando JSON alojados en GitHub",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "movies",
+    "catalogs"
+  ],
+  "author": "adolivfer",
+  "license": "MIT",
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
