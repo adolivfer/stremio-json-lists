@@ -1,0 +1,2 @@
+# stremio-json-lists
+Catalogs
